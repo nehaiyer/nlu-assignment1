@@ -14,5 +14,7 @@ Scripts for Task 1:
 8. S4_bigram.py
 
 Scripts for Task 2:
-1. generate_sentence.sh
+1. generate_sentence.sh - The output sentence will be generated in a file output.txt
 2. genSent.py
+
+Note: Above codes implemented using Python v3.6
