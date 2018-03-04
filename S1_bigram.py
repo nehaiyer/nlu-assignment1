@@ -41,7 +41,8 @@ def load():
         train.append(words[:round(len(words)*0.8)])
         test.append(words[-round(len(words)*0.2):])
 
-    
+    train = [item for sublist in train for item in sublist]
+    test = [item for sublist in test for item in sublist]
     return train,test
 
 def cal_ngram(train,n):
